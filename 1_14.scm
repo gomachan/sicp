@@ -31,3 +31,19 @@
 (print (count-change 11))
 
 ; @see https://pbs.twimg.com/media/B0okDbfCQAETEp5.jpg:large
+;
+; スペースについて
+;
+; (cc n 1)の時に深さは最大のnになる。
+; よってスペースはの増加の程度はn
+;
+;
+; ステップ数について
+;
+; (cc n 1)のとき、ステップ数は2n+1
+; n=0 => 1
+; n=1 => 3
+; n=2 => 5 ( 2 + (cc n-1 1))
+;
+; (cc n 2)のとき、nが0になるのは大体n/5回
+; 増加の程度はn*n/5=>n^2

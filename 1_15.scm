@@ -10,6 +10,7 @@
     angle
     (p (sine (/ angle 3.0)))))
 
+(trace sine)
 (print (sine 12.15))
 
 ; 12.15
@@ -22,3 +23,9 @@
 ; ...割愛
 ;
 ; a 5回
+;
+; b 
+; わからず。
+; ここをみて理解！わかりやすい。
+; @see http://d.hatena.ne.jp/awacio/20100212/1265983080
+; log(3,a)

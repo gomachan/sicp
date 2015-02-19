@@ -14,15 +14,11 @@
 (define (even? n)
   (= (remainder n 2) 0))
 
-
 (define (double a)
   (+ a a))
 
 (define (halve n)
   (/ n 2))
-
-(define (even? n)
-  (= (double (halve n)) n))
 
 (define (* a b)
   (cond ((= b 0) a)
